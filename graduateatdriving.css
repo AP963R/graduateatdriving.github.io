@@ -1,0 +1,775 @@
+/* Gen. Styling For All Pages */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header.header-container {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header.header-container nav.navbar-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+}
+
+header.header-container nav.navbar-container h2.navbar-logo a {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+header.header-container nav.navbar-container h2.navbar-logo a span.orange {
+    font-size: 2rem;
+    color: rgb(255, 149, 0);
+    font-weight: 700;
+}
+
+header.header-container nav.navbar-container h2.navbar-logo a span.grey {
+    font-size: 2rem;
+    color: rgb(79, 79, 79);
+    font-weight: 700;
+}
+
+header.header-container nav.navbar-container h2.navbar-logo a:hover {
+    cursor: pointer;
+}
+
+header.header-container nav.navbar-container h2.navbar-logo ul, li.navbar-links {
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+header.navmenu-container nav.navmenu-container img.navmenu-logo ul, li, a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+header.header-container nav.navbar-container h2.navbar-logo ul, li, a:hover {
+    color: rgb(255, 149, 0);
+    transition: 0.2s ease-in-out;
+}
+
+header.header-container nav.navbar-container button.hamburger {
+    background-color: transparent;
+    border: 0;
+    display: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+header.header-container nav.navbar-container button.hamburger:focus {
+    outline: none;
+}
+
+/* -- */
+
+section.home-container {
+    padding: 35rem;
+    margin: auto;
+    max-height: 100vh;
+    max-width: 100%;
+    background-image: url("./home-page-image.jpeg");
+    background-size: cover;
+    justify-content: center;
+    display: flexbox;
+}
+
+section.home-container h2.home-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.7rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 20px;
+    white-space: nowrap;
+    margin-top: -200px;
+}
+
+section.home-container button.home-button {
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(255, 149, 0);
+    border: 1px solid rgb(255, 149, 0);
+    font-size: 1rem;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+section.home-container button.home-button:hover{
+    display: flex;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+section.about-container {
+    padding: 80px;
+    margin: 0;
+    background-color: rgb(255, 149, 0);
+}
+
+section.about-container h2.about-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+
+section.about-container p.about-paragraph {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 1.1rem;
+    max-width: 75%;
+}
+
+section.services-container {
+    padding: 80px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+section.services-container h2.services-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+
+section.services-container ul.services li.services-list {
+    list-style-type: circle;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: rgb(23, 23, 23);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+section.services-container ul.services li.services-list span.transmission {
+    font-size: 1rem;
+    padding-left: 5px; 
+}
+
+section.book-a-call-container {
+    padding: 80px;
+    margin: 0;
+    max-width: 100%;
+    max-height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+section.book-a-call-container h2.book-a-call-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+
+section.book-a-call-container form, div.name-phone-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.book-a-call-container form, div.name-phone-email label.label {
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+section.book-a-call-container form, div.name-phone-email input.input {
+    border-radius: 4px;
+    outline: 0;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+section.book-a-call-container form, div.booking-confirmation {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: -10px;
+    padding: 5px;
+}
+
+section.book-a-call-container form, div.booking-confirmation input{
+    border-radius: 4px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+section.contact-container {
+    background-color: rgba(79, 79, 79, 0.4);
+}
+
+section.contact-container section.contact-form {
+    max-height: 100vh;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 4px;
+    padding: 55px 30px;
+}
+
+section.contact-container section.contact-form form div.title {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+section.contact-container section.contact-form form div.half {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.contact-container section.contact-form form div.half div.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    width: 48%;
+    color: rgb(255, 255, 255);
+}
+
+section.contact-form label {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    margin-bottom: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+section.contact-form div.half div.item input {
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+section.contact-form div.full textarea {
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    height: 200px;
+    width: 100%;
+    font-size: 17px;
+}
+
+section.contact-form div.action {
+    margin-bottom: 32px;
+}
+
+section.contact-form div.action input {
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(79, 79, 79);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    height: 44px;
+    letter-spacing: 3px;
+    outline: 0;
+    padding: 0 20px 0 22px;
+    margin-top: 24px;
+    margin-right: 10px;     
+}
+
+section.contact-form div.action input[type="submit"]{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+footer p {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* Nest Max */
+
+@media screen and (max-width: 1280px) {
+    header.header-container nav.navbar-container ul.nav-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        line-height: 4rem;
+    }
+
+    header.header-container nav.navbar-container ul.nav-ul.show {
+        display: flex;
+    }
+
+    header.header-container nav.navbar-container button.hamburger {
+        display: block;
+        font-size: 2rem;
+    }
+
+    header.header-container nav.navbar-container button.hamburger:hover {
+        display: block;
+        font-size: 2rem;
+        color: rgb(255, 149, 0);
+        transition: 0.2s ease-in-out;
+    }
+
+    section.home-container {
+        padding: 20rem;
+        margin: auto;
+        background-image: url("./home-page-image.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+    }
+
+    section.home-container h2.home-text {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        letter-spacing: 0.1rem;
+        margin: auto;
+        margin-top: -90px;
+        white-space: normal;
+    }
+
+    section.home-container button.home-button {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-top: 30px;
+        white-space: nowrap;
+        position: absolute;
+        left: 570px;
+    }
+
+    section.home-container button.home-button:hover {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        white-space: nowrap;
+        margin-top: 70px;
+        justify-content: center;
+    }
+}
+
+/* Nest Hub */
+
+@media screen and (max-width: 1024px) {
+    header.header-container nav.navbar-container ul.nav-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        line-height: 4rem;
+    }
+
+    header.header-container nav.navbar-container ul.nav-ul.show {
+        display: flex;
+    }
+
+    header.header-container nav.navbar-container button.hamburger {
+        display: block;
+        font-size: 2rem;
+    }
+
+    header.header-container nav.navbar-container button.hamburger:hover {
+        display: block;
+        font-size: 2rem;
+        color: rgb(255, 149, 0);
+        transition: 0.2s ease-in-out;
+    }
+
+    section.home-container {
+        padding: 20rem;
+        margin: auto;
+        background-image: url("./home-page-image.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+    }
+
+    section.home-container h2.home-text {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        margin: auto;
+        margin-top: -90px;
+        white-space: nowrap;
+    }
+
+    section.home-container button.home-button {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-top: 30px;
+        white-space: nowrap;
+        position: absolute;
+        left: 450px;
+    }
+
+    section.home-container button.home-button:hover {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        white-space: nowrap;
+        margin-top: 70px;
+        justify-content: center;
+    }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 1000px) {
+    header.header-container nav.navbar-container ul.nav-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        line-height: 4rem;
+    }
+
+    header.header-container nav.navbar-container ul.nav-ul.show {
+        display: flex;
+    }
+
+    header.header-container nav.navbar-container button.hamburger {
+        display: block;
+        font-size: 2rem;
+    }
+
+    header.header-container nav.navbar-container button.hamburger:hover {
+        display: block;
+        font-size: 2rem;
+        color: rgb(255, 149, 0);
+        transition: 0.2s ease-in-out;
+    }
+
+    section.home-container {
+        padding: 20rem;
+        margin: auto;
+        background-image: url("./home-page-image.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+    }
+
+    section.home-container h2.home-text {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        letter-spacing: 0.1rem;
+        margin: auto;
+        margin-top: -50px;
+        white-space: normal;
+    }
+
+    section.home-container button.home-button {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-top: 30px;
+        white-space: nowrap;
+        position: absolute;
+        left: 320px;
+    }
+
+    section.home-container button.home-button:hover {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        white-space: nowrap;
+        margin-top: 70px;
+        justify-content: center;
+    }
+
+    section.book-a-call-container h2.book-a-call-text {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 30px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 2.1rem;
+    }
+
+    section.book-a-call-container form, div.name-phone-email {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    section.book-a-call-container form, div.name {
+        display: block;
+        padding: 10px;
+    }
+
+    section.book-a-call-container form, div.phone {
+        display: block;
+        padding: 10px;
+    }
+
+    section.book-a-call-container form, div.email {
+        display: block;
+        padding: 10px;
+    }
+}
+
+/* Phones */
+
+@media screen and (max-width: 414px) {
+    header.header-container nav.navbar-container ul.nav-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        line-height: 4rem;
+    }
+
+    header.header-container nav.navbar-container ul.nav-ul.show {
+        display: flex;
+    }
+
+    header.header-container nav.navbar-container button.hamburger {
+        display: block;
+        font-size: 2rem;
+    }
+
+    header.header-container nav.navbar-container button.hamburger:hover {
+        display: block;
+        font-size: 2rem;
+        color: rgb(255, 149, 0);
+        transition: 0.2s ease-in-out;
+    }
+
+    header.header-container nav.navbar-container h2.navbar-logo a {
+        font-size: 1.2rem;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+    
+    header.header-container nav.navbar-container h2.navbar-logo a span.orange {
+        font-size: 1.2rem;
+        color: rgb(255, 149, 0);
+        font-weight: 700;
+    }
+    
+    header.header-container nav.navbar-container h2.navbar-logo a span.grey {
+        font-size: 1.2rem;
+        color: rgb(79, 79, 79);
+        font-weight: 700;
+    }
+
+    section.home-container {
+        padding: 10rem;
+        padding-bottom: 200px;
+        background-image: url("./home-page-image.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    section.home-container h2.home-text {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 3rem;
+        letter-spacing: 0.1rem;
+        margin: auto;
+        margin-top: -50px;
+        white-space: normal;
+    }
+
+    section.home-container button.home-button {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-top: 30px;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        margin-left: 55px;
+    }
+
+    section.home-container button.home-button:hover {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        position: absolute;
+        margin-left: 55px;
+    }
+
+    section.services-container ul.services li.services-list {
+        list-style-type: circle;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        color: rgb(23, 23, 23);
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+}
+
+/* Tiny Phones */
+
+@media screen and (max-width: 414px) {
+    header.header-container nav.navbar-container ul.nav-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        line-height: 4rem;
+    }
+
+    header.header-container nav.navbar-container ul.nav-ul.show {
+        display: flex;
+    }
+
+    header.header-container nav.navbar-container button.hamburger {
+        display: block;
+        font-size: 2rem;
+    }
+
+    header.header-container nav.navbar-container button.hamburger:hover {
+        display: block;
+        font-size: 2rem;
+        color: rgb(255, 149, 0);
+        transition: 0.2s ease-in-out;
+    }
+
+    header.header-container nav.navbar-container h2.navbar-logo a {
+        font-size: 1rem;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+    
+    header.header-container nav.navbar-container h2.navbar-logo a span.orange {
+        font-size: 1rem;
+        color: rgb(255, 149, 0);
+        font-weight: 700;
+    }
+    
+    header.header-container nav.navbar-container h2.navbar-logo a span.grey {
+        font-size: 1rem;
+        color: rgb(79, 79, 79);
+        font-weight: 700;
+    }
+
+    section.home-container {
+        padding: 5rem;
+        padding-bottom: 200px;
+        background-image: url("./home-page-image.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    section.home-container h2.home-text {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 2.1rem;
+        letter-spacing: 0.1rem;
+        margin: auto;
+        margin-top: -30px;
+        white-space: normal;
+    }
+
+    section.home-container button.home-button {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-top: 30px;
+        justify-content: center;
+        text-align: center;
+        white-space: nowrap;
+        position: absolute;
+        left: 70px;
+        font-size: 1rem;
+    }
+
+    section.home-container button.home-button:hover {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-top: 30px;
+        white-space: nowrap;
+        position: absolute;
+        left: 70px;
+        font-size: 1rem;
+    }
+}
