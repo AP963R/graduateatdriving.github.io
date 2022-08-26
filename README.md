@@ -1,1 +1,3 @@
 # graduateatdriving.github.io
+
+A driving instructor based in the UK, the owner needed an easier way for customer interaction. Many of his current bookings come through phone calls received via the AA, who he is partnered with. As a result, it can lead to missed calls and a backlog of unknown contacts. By creating the 'Book A Call' section, he is now able to get all of the information for people interested in having a lesson sent directly to his email when visitors submit their details. The hope is that he will now be able to capitalise on the lost business caused by missed calls and not knowing who is a potential customer and who isn't.
